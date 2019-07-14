@@ -1,0 +1,12 @@
+{
+  "extends": ["tslint-config-prettier"],
+  "rules": {
+    "no-implicit-dependencies": false, //https://github.com/palantir/tslint/issues/3364
+    "no-submodule-imports": false,
+    "object-literal-shorthand": true,
+    "quotemark": [true, "single", "jsx-single"],
+    "typedef": [true, "arrow-call-signature", "member-variable-declaration", "property-declaration", "parameter"],
+    "whitespace": [true, "check-branch", "check-decl", "check-operator", "check-module", "check-rest-spread"],
+    "newline-before-return": true
+  }
+}

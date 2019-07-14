@@ -1,0 +1,15 @@
+{
+  "window.title": "React Apollo",
+  "editor.autoIndent": true,
+  "editor.formatOnSave": true,
+  "editor.rulers": [120, 140],
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {},
+  "files.trimTrailingWhitespace": true,
+  "html.format.wrapAttributes": "force",
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.tslintIntegration": true,
+  "tslint.alwaysShowRuleFailuresAsWarnings": true
+}

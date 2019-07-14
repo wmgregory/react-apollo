@@ -1,0 +1,13 @@
+# global
+*.yml
+*.xml
+*.lock
+
+# config
+.github
+.tmp
+package.json
+
+# app
+/build
+/dist
