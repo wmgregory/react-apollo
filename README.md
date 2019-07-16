@@ -18,7 +18,7 @@ $ cd server/ && yarn
 To run the server (through AWS)
 
 ```
-$ yarn serve
+$ yarn start
 ```
 
 ## Running Tests
