@@ -8,6 +8,5 @@
     "baseUrl": "./",
     "types": ["jest", "node", "@types/jest", "@types/node", "@types/graphql"]
   },
-  "files": ["test.ts"],
   "include": ["**/*.spec.ts", "**/*.d.ts", "**/*.mock.ts"]
 }
