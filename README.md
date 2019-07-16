@@ -1,5 +1,8 @@
 # React Apollo - playground
 
+[![Known Vulnerabilities](https://snyk.io/test/github/talktalkplc/graphql-serverless/dev/badge.svg)](https://snyk.io/test/github/wmgregory/react-apollo/dev)
+[![jest](https://facebook.github.io/jest/img/jest-badge.svg)](https://github.com/facebook/jest)
+
 TODO description
 
 ## Getting Started
@@ -13,12 +16,20 @@ $ cd client/ && yarn
 $ cd server/ && yarn
 ```
 
-### serve
+### Serve
 
 To run the server (through AWS)
 
 ```
-$ yarn start
+$ yarn start             # TODO
+$ cd client/ && yarn start
+$ cd server/ && yarn start
+```
+
+## Deployment
+```
+yarn build               # builds to /dist
+yarn deploy              # deploy directly to server
 ```
 
 ## Running Tests
@@ -30,7 +41,9 @@ Coverage is improving gradually!
 Uses Jest + Enzyme
 
 ```
-$ yarn test          # local
+$ yarn test               # TODO
+$ cd client/ && yarn test
+$ cd server/ && yarn test
 ```
 
 ### Run E2E tests
@@ -38,7 +51,7 @@ $ yarn test          # local
 Uses Cypress
 
 ```
-$ yarn e2e           # local GUI
+$ yarn e2e                # TODO
 ```
 
 ## Lint
@@ -47,13 +60,16 @@ Uses Prettier & TSLint
 
 ## Deployment
 
-TBD
+TODO
 
 ## Tech Stack
 
 ### Build
 
 - [React 16](https://reactjs.org/)
+- TypeScript
+- Apollo Server
+- serverless
 - [Emotion](https://emotion.sh)
 - [Material UI](https://material-ui.com)
 
