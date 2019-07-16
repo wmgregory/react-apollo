@@ -1,6 +1,6 @@
 # React Apollo - playground
 
-[![Known Vulnerabilities](https://snyk.io/test/github/talktalkplc/graphql-serverless/develop/badge.svg)](https://snyk.io/test/github/wmgregory/react-apollo/develop)
+[![Known Vulnerabilities](https://snyk.io/test/github/wmgregory/react-apollo/develop/badge.svg)](https://snyk.io/test/github/wmgregory/react-apollo/develop)
 [![jest](https://facebook.github.io/jest/img/jest-badge.svg)](https://github.com/facebook/jest)
 
 TODO description
