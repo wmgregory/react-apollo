@@ -1,13 +1,13 @@
 # React Apollo - playground
 
-[![Known Vulnerabilities](https://snyk.io/test/github/talktalkplc/graphql-serverless/dev/badge.svg)](https://snyk.io/test/github/wmgregory/react-apollo/dev)
+[![Known Vulnerabilities](https://snyk.io/test/github/talktalkplc/graphql-serverless/develop/badge.svg)](https://snyk.io/test/github/wmgregory/react-apollo/develop)
 [![jest](https://facebook.github.io/jest/img/jest-badge.svg)](https://github.com/facebook/jest)
 
 TODO description
 
 ## Getting Started
 
-### Install dependencies
+## Install dependencies
 
 In terms of installing the webapp, this is all you need to do:
 
@@ -16,7 +16,7 @@ $ cd client/ && yarn
 $ cd server/ && yarn
 ```
 
-### Serve
+## Serve
 
 To run the server (through AWS)
 
@@ -32,11 +32,7 @@ yarn build               # builds to /dist
 yarn deploy              # deploy directly to server
 ```
 
-## Running Tests
-
-Coverage is improving gradually!
-
-### Run unit tests
+## Run unit tests
 
 Uses Jest + Enzyme
 
@@ -46,7 +42,7 @@ $ cd client/ && yarn test
 $ cd server/ && yarn test
 ```
 
-### Run E2E tests
+## Run E2E tests
 
 Uses Cypress
 
@@ -57,10 +53,6 @@ $ yarn e2e                # TODO
 ## Lint
 
 Uses Prettier & TSLint
-
-## Deployment
-
-TODO
 
 ## Tech Stack
 

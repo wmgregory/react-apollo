@@ -1,6 +1,6 @@
 # GraphQL Serverless
 
-[![Known Vulnerabilities](https://snyk.io/test/github/talktalkplc/graphql-serverless/dev/badge.svg)](https://snyk.io/test/github/wmgregory/react-apollo/dev)
+[![Known Vulnerabilities](https://snyk.io/test/github/talktalkplc/graphql-serverless/develop/badge.svg)](https://snyk.io/test/github/wmgregory/react-apollo/develop)
 [![jest](https://facebook.github.io/jest/img/jest-badge.svg)](https://github.com/facebook/jest)
 
 This project is using:
