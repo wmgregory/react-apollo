@@ -3,12 +3,14 @@ import { ApolloServer, gql } from 'apollo-server-lambda';
 const schema = gql`
   type Query {
     hello: String
+    rand: Float
   }
 `;
 
 const resolvers = {
   Query: {
     hello: (): string => 'Hello world!!',
+    rand: (): number => Math.random(),
   },
 };
 

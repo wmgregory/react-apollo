@@ -34,13 +34,13 @@ module.exports = {
 
   module: {
     rules: [
+      // {
+      //   test: /\.json$/,
+      //   loader: 'json-loader',
+      //   exclude: /node_modules/,
+      // },
       {
-        test: /\.json$/,
-        loader: 'json-loader',
-        exclude: /node_modules/,
-      },
-      {
-        test: /\.tsx?$/,
+        test: /\.ts$/,
         loader: 'ts-loader',
         exclude: /node_modules/,
       },
@@ -50,11 +50,11 @@ module.exports = {
         include: __dirname,
         exclude: /node_modules/,
       },
-      {
-        test: /\.(graphql|gql)$/,
-        loader: 'webpack-graphql-loader',
-        exclude: /node_modules/,
-      },
+      // {
+      //   test: /\.(graphql|gql)$/,
+      //   loader: 'webpack-graphql-loader',
+      //   exclude: /node_modules/,
+      // },
     ],
   },
 
