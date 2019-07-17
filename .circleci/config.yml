@@ -10,6 +10,9 @@ jobs:
       - checkout:
           path: ~/app
       - run:
+          name: Clean install
+          command: yarn
+      - run:
           name: Create cache lock file
           command: cat package.json yarn.lock | grep -v version  > cache.lock
       - restore_cache:
@@ -34,6 +37,9 @@ jobs:
     steps:
       - checkout:
           path: ~/app
+      - run:
+          name: Clean install
+          command: yarn
       - run:
           name: Create cache lock file
           command: cat package.json yarn.lock | grep -v version  > cache.lock
