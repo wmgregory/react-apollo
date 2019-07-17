@@ -3,14 +3,11 @@
 version: 2
 jobs:
   unit-test-client:
-    working_directory: ~/client/src
+    working_directory: ~/client
     docker:
       - image: circleci/node:9.2
     steps:
       - checkout
-      - run:
-          name: Change dir
-          command: cd client/
       - run:
           name: Create cache lock file
           command: cat package.json yarn.lock | grep -v version  > cache.lock
@@ -30,14 +27,11 @@ jobs:
           name: Unit tests
           command: yarn test
   unit-test-server:
-    working_directory: ~/server/src
+    working_directory: ~/server
     docker:
       - image: circleci/node:9.2
     steps:
       - checkout
-      - run:
-          name: Change dir
-          command: cd server/
       - run:
           name: Create cache lock file
           command: cat package.json yarn.lock | grep -v version  > cache.lock
