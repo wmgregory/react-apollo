@@ -10,10 +10,10 @@ jobs:
       - checkout
       - run:
           name: Change dir
-          command: cd ~/app/client
+          command: pwd && cd ~/app/client/
       - run:
           name: Create cache lock file
-          command: cat package.json yarn.lock | grep -v version  > cache.lock
+          command: pwd && cat package.json yarn.lock | grep -v version  > cache.lock
       - restore_cache:
           key: node92--{{ arch }}--{{ checksum "cache.lock" }}
       - run:
@@ -62,4 +62,4 @@ workflows:
   build:
     jobs:
       - unit-test-client
-      - unit-test-server
+      # - unit-test-server
