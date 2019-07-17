@@ -5,7 +5,7 @@ jobs:
   unit-test-client:
     working_directory: ~/app/client
     docker:
-      - image: circleci/node:9.10
+      - image: circleci/node:10
     steps:
       - checkout:
           path: ~/app
@@ -33,7 +33,7 @@ jobs:
   unit-test-server:
     working_directory: ~/app/server
     docker:
-      - image: circleci/node:9.10
+      - image: circleci/node:10
     steps:
       - checkout:
           path: ~/app
