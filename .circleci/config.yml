@@ -56,4 +56,4 @@ workflows:
   build:
     jobs:
       - unit-test-client
-      - unit-tests-server
+      - unit-test-server
