@@ -28,7 +28,6 @@
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.14.0",
     "enzyme-to-json": "3.3.5",
-    "jest": "24.8.0",
     "jest-enzyme": "7.0.2",
     "snyk": "^1.197.0",
     "typescript": "3.5.3"
