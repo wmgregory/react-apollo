@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![CircleCI](https://circleci.com/gh/wmgregory/react-apollo/tree/develop.svg?style=svg)](https://circleci.com/gh/wmgregory/react-apollo/tree/develop)
+[![Known Vulnerabilities](https://snyk.io/test/github/wmgregory/react-apollo/develop/badge.svg)](https://snyk.io/test/github/wmgregory/react-apollo/develop)
+[![jest](https://facebook.github.io/jest/img/jest-badge.svg)](https://github.com/facebook/jest)
+
 ## Available Scripts
 
 In the project directory, you can run:

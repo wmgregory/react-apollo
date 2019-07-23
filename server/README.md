@@ -1,9 +1,11 @@
 # GraphQL Serverless
 
-[![Known Vulnerabilities](https://snyk.io/test/github/talktalkplc/graphql-serverless/develop/badge.svg)](https://snyk.io/test/github/wmgregory/react-apollo/develop)
+[![CircleCI](https://circleci.com/gh/wmgregory/react-apollo/tree/develop.svg?style=svg)](https://circleci.com/gh/wmgregory/react-apollo/tree/develop)
+[![Known Vulnerabilities](https://snyk.io/test/github/wmgregory/react-apollo/develop/badge.svg)](https://snyk.io/test/github/wmgregory/react-apollo/develop)
 [![jest](https://facebook.github.io/jest/img/jest-badge.svg)](https://github.com/facebook/jest)
 
 This project is using:
+
 - Apollo Server 2
 - TypeScript
 - serverless
@@ -13,27 +15,32 @@ This project is using:
 TODO
 
 ## Install dependencies
+
 ```
 yarn
 ```
 
 ## Serve
+
 ```
 yarn start
 ```
 
 ## Deployment
+
 ```
 yarn build               # TODO
 yarn deploy              # TODO
 ```
 
 ## Run docker image
+
 ```
 yarn docker              # TODO
 ```
 
 ## Run units tests
+
 ```
 yarn test
 yarn test:watch          # runs and watches
@@ -57,6 +64,7 @@ Uses Prettier & TSLint
 - [Cypress](https://www.cypress.io/)
 
 ## TODO:
+
 - Unit test suite
 - CircleCI pipeline
 - Error handling

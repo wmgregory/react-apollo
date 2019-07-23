@@ -7,5 +7,5 @@ import { Header } from './Header';
 it('renders without crashing', () => {
   const wrapper = shallow(<Header title='New Title' />);
   expect(wrapper).toBeDefined();
-  expect(wrapper).toMatchSnapshot();
+  expect(wrapper.debug()).toMatchSnapshot();
 });

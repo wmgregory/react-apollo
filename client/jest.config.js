@@ -14,6 +14,5 @@ module.exports = {
   },
   coveragePathIgnorePatterns: ['/config/', '/node_modules/'],
 
-  setupFilesAfterEnv: ['<rootDir>/config/jest/setupJest.ts'],
   snapshotSerializers: ['enzyme-to-json/serializer'],
 };
