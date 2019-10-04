@@ -7,7 +7,9 @@
     "start": "sls offline start",
     "build": "sls package --p ./dist",
     "deploy": "sls deploy",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "apollo-server": "2.6.9",
@@ -19,7 +21,8 @@
     "request": "2.88.0",
     "request-promise": "4.2.4",
     "serverless": "1.47.0",
-    "serverless-http": "2.0.2"
+    "serverless-http": "2.0.2",
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "@types/graphql": "14.2.2",
@@ -49,5 +52,6 @@
     "webpack-graphql-loader": "1.0.2",
     "webpack-merge": "4.2.1",
     "webpack-node-externals": "1.7.2"
-  }
+  },
+  "snyk": true
 }
