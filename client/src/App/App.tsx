@@ -5,6 +5,7 @@ import './App.css';
 
 import { Header } from '../components';
 import { client } from '../services/client';
+import { RandomNumber } from '../components/RandomNumber';
 
 export const App: React.FC = () => {
   return (
@@ -15,3 +16,4 @@ export const App: React.FC = () => {
     </ApolloProvider>
   );
 };
+      <RandomNumber />

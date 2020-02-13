@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RandomNumber should render with random number 1`] = `
+"<div>
+  <p>
+    Your random number: 
+    2
+  </p>
+</div>"
+`;
