@@ -2,9 +2,13 @@
 
 exports[`App renders without crashing 1`] = `
 "<ApolloProvider client={{...}}>
-  <div className=\\"App\\">
-    <Header title=\\"React Apollo demo\\" />
-    <RandomNumber />
-  </div>
+  <ThemeProvider theme={{...}}>
+    <CssBaseline />
+    <styled.div>
+      <Header title=\\"React Apollo demo\\" />
+      <RandomNumber />
+    </styled.div>
+  </ThemeProvider>
+  ,
 </ApolloProvider>"
 `;
