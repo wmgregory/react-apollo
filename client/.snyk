@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.22.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -1572,3 +1572,62 @@ patch:
         patched: '2019-07-23T07:53:53.990Z'
     - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2019-07-23T07:53:53.990Z'
+  SNYK-JS-LODASH-567746:
+    - snyk > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > @babel/core > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > eslint > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > eslint-plugin-flowtype > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - snyk > snyk-config > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > @svgr/webpack > @babel/core > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > eslint > inquirer > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > webpack-dev-server > portfinder > async > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-sticky-regex > @babel/helper-regex > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > html-webpack-plugin > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - snyk > inquirer > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > webpack-manifest-plugin > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > babel-eslint > @babel/traverse > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > eslint > table > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > react-dev-utils > inquirer > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-22T23:14:00.526Z'
+    - react-scripts > jest-environment-jsdom-fourteen > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2021-10-22T23:14:00.526Z'

@@ -5,8 +5,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "snyk-protect": "yarn snyk protect",
-    "prepublish": "yarn snyk-protect",
+    "snyk-protect": "snyk-protect",
+    "prepublish": "yarn run snyk-protect && yarn snyk-protect",
     "test": "react-scripts test --watchAll=false --coverage",
     "eject": "react-scripts eject"
   },
@@ -17,7 +17,7 @@
     "react-apollo": "2.5.8",
     "react-dom": "^16.8.6",
     "react-scripts": "3.3.0",
-    "snyk": "^1.197.0"
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/enzyme": "3.10.2",
