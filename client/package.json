@@ -34,7 +34,7 @@
     "enzyme-adapter-react-16": "1.14.0",
     "enzyme-to-json": "3.3.5",
     "jest-enzyme": "7.0.2",
-    "snyk": "^1.291.0",
+    "snyk": "^1.996.0",
     "typescript": "3.7.5"
   },
   "eslintConfig": {
