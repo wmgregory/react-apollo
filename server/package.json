@@ -19,8 +19,8 @@
     "graphql-tools": "4.0.5",
     "merge-graphql-schemas": "1.5.8",
     "request": "2.88.0",
-    "request-promise": "4.2.4",
-    "serverless": "1.47.0",
+    "request-promise": "4.2.6",
+    "serverless": "2.0.0",
     "serverless-http": "2.0.2",
     "snyk": "^1.316.1"
   },
