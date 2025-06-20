@@ -17,7 +17,7 @@
     "react-apollo": "2.5.8",
     "react-dom": "^16.8.6",
     "react-scripts": "5.0.0",
-    "snyk": "^1.197.0"
+    "snyk": "^1.996.0"
   },
   "devDependencies": {
     "@types/enzyme": "3.10.2",
